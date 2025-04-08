@@ -7,7 +7,7 @@
 * 为电商类，咨询类，平台类服务应用(web/小程序/APP/JAVA)，提供高性能的自动智能客服支持。
 * 本项目是依赖easyAi引擎衍生应用，以easyAi高性能廉价部署的思路，可在cpu上无压力高效运行，开包即用。功能持续扩展，敬请期待。
 * 本项目永久免费商用，如果能对您生产和学习有帮助请给作者一个star，这会非常鼓励我。
-* 项目依赖easyAi下载链接：https://gitee.com/dromara/easyAi (gitee)  https://gitcode.com/dromara/EasyAi/overview (gitCode)
+* 项目依赖easyAi下载链接：https://gitee.com/dromara/easyAi
 * 管理后台登陆地址:http://localhost:8080/
 
 ## 详细视频教程地址：
@@ -16,10 +16,6 @@
 * 人工智能0基础JAVA程序员速成课（基础篇） 本课程为基础篇内容，后续更新还会有图像篇与自然语言篇，三部分构成。
   地址：https://www.bilibili.com/cheese/play/ss17600
 * 技术文档远程地址： https://www.myeasyai.cn/#/myWord/word
-
-### gitCode同步链接
-
-https://gitcode.com/dromara/sayOrder/overview
 
 ## 开发者常见疑问整理
 
