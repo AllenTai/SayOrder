@@ -54,7 +54,7 @@ public class TalkTools {
         if (file.exists()) {
             talkToTalk.insertModel(readCreatorModel2());
         } else {
-            TransFormerModel transFormerModel = talkToTalk.study(sentences);
+            TransFormerModel transFormerModel = talkToTalk.study(sentences, null);
             String model = JSON.toJSONString(transFormerModel);
             writeModel(model, Config.longTalkUrl);
         }

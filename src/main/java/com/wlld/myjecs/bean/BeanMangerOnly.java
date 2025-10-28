@@ -44,10 +44,16 @@ public class BeanMangerOnly {//需要单例的类
 
     @Bean
     public TfConfig getTfConfig() {//64-128
-        TfConfig tfConfig = new TfConfig();
-        tfConfig.setTimes(500);//样本量不足，增加训练量
-        tfConfig.setShowLog(true);
-        return tfConfig;
+        TfConfig config = new TfConfig();
+        config.setMaxLength(25);//最大长度设置为40
+        config.setMultiNumber(8);//每层编解码器设置3个多头
+        config.setFeatureDimension(32);//设置词向量维度
+        config.setAllDepth(1);//设置tf编解码器深度
+        config.setTimes(400);//循环训练五百次
+        config.setStudyRate(0.0025f);//设置tf学习率å
+        config.setTimePunValue(0.5f);//0.5
+        config.setShowLog(true);//对学习中的数据打印
+        return config;
     }
 
     @Bean
